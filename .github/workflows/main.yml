@@ -62,8 +62,4 @@ jobs:
           app-name: azure-web-app-shell-java-app
           images: khushivardiya/shell-java-app:0.0.1.Release
           
-      - name: Deploy to Azure Web App
-        uses: azure/webapps-deploy@v2
-        with:
-          app-name: azure-web-app-shell-java-app
-          images: rootzain/shell-java-app:0.0.1.Release
+      
